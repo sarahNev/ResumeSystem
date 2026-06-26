@@ -1,0 +1,17 @@
+[project]
+name = "resume-agent"
+version = "0.1.0"
+description = "Google ADK multi-agent pipeline for tailoring resumes from Excel skill data"
+requires-python = ">=3.11"
+
+dependencies = [
+    "google-adk>=1.0.0",
+    "openpyxl>=3.1.0",
+    "reportlab>=4.5.0",
+    "pypdf>=6.0.0",
+    "pydantic>=2.0.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

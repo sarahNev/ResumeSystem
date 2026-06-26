@@ -1,0 +1,16 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+# Virtual env
+.venv/
+venv/
+# Env files
+.env
+!.env.example
+# Output / build
+dist/
+build/
+output/
+# Editor
+.vscode/
